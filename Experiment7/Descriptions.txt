@@ -1,0 +1,14 @@
+The purpose of this experiment is serial communication of two different microcontrollers. The
+experiment can be summarized as follows:
+• Suppose that you need to control a system with PID controller. However, it is not always easy
+to change the PID gain parameters, which are embedded to the code statically. For this reason,
+it would be better to alter the parameters with a serial communication in order to see the effect
+rapidly in real-time.
+• You should send a string array with combination of your student ID via serial communication
+(your student ID is represented as “a b c d _ e f g”).
+• The message you will send from serial writer to serial reader is defined as “afPdgIdfD”. For
+example; if your student ID is 12345678, then you should send 17P48I47D.
+• These characters should be sent with the second microcontroller that represents the serial input
+line for simulation purpose. In your serial reader code, these characters should be parsed to P,
+I and D parameters as 17, 48 and 47, respectively. These Kp, Ki and Kd parameters should be
+shown on the serial communication screen (virtual terminal given in circuit) and LCD screen.
