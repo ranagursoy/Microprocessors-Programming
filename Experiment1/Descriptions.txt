@@ -1,0 +1,2 @@
+The purpose of this experiment is to define the input and output pins in assembly language and, accordingly, to perform the LED on – off application with the button. In the experiment, when the
+buttons connected to the D0 and D2 pins are pressed, the LED connected to the D1 and D3 pins should turn on, otherwise it should turn off. Note that the buttons are connected in different configurations.
