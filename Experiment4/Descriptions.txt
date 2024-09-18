@@ -1,0 +1,19 @@
+The purpose of the experiment is to make a calculator. While “*” button works as the function button
+(here, we will use for summing two numbers), “#” button works as execute button. An example for the
+output is given below:
+LCD SCREEN
+12*56#
+68
+Adding 12 and 56 numbers
+The calculator should only perform 2-digit operations. For example, when "356" is written on the screen,
+it should return a warning message like "Please enter a 2-digit number" for 1 second. The steps to follow
+are:
+• Turn button reading codes into a function (return as integer/character, it depends on you).
+• Find a way to convert the incoming button character/digits into multi-digit number. There are
+several methods after this phase. You can receive all the six characters, then execute, or you can
+evaluate each character till “*” or “#” is pressed (this method is more proper for general solution
+if the numbers were not limited as two digits).
+• You should check if ‘*’ or ‘#’ is not pressed properly. If not, print a warning message for 1000ms,
+then restart the algorithm.
+• If your check is successful, then print the solution for 3000ms, then clear the screen and restart
+the algorithm.
