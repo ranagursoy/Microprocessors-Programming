@@ -1,0 +1,3 @@
+The purpose of the experiment is to demonstrate the use of the interrupt and timer with assembly
+instructions. In the experiment, using the TMR0 interrupt, the LED connected to the B0 pin is requested
+to blink at 1-second intervals.
