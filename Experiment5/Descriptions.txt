@@ -1,0 +1,4 @@
+The purpose of this experiment is to implement an ADC process that occurs for each 2 seconds using a
+Timer. ADC readings coming from 2 potentiometers should be made every 2 seconds by using a Timer
+and the first reading should be on the first line and the second reading should be on the second line of
+the LCD screen.
