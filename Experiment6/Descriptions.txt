@@ -1,0 +1,11 @@
+The purpose of this experiment is to realize the speed and direction control of a DC motor. The steps to
+follow are:
+• When the "Increase" button is pressed, the % Duty Cycle of the generated PWM signal will
+increase. Therefore, the rotational speed of the DC motor should also increase.
+• When the "Decrease" button is pressed, the % Duty Cycle of the generated PWM signal will
+decrease. Therefore, the rotational speed of the DC motor should also decrease.
+• The % Duty Cycle must be a maximum of 100% and a minimum of 0% (Limitation can be made
+with the if (...) command).
+• If the "Change Direction" button is pressed an odd number of times, the DC motor should turn
+CW, and if the button is pressed an even number of times, the DC motor should rotate CCW
+(Create a counter and use modulo operation).
